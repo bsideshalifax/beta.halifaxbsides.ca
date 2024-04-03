@@ -58,9 +58,11 @@ module.exports = {
          'og:description': { property: 'og:description', content: 'BSides is a community-driven framework for building events for and by information security community members.' },
          'og:type': { property: 'og:type', content: 'website' },
          'og:url': { property: 'og:url', content: 'https://halifaxbsides.ca/' },
+         'og:image': { property: 'og:image', content: 'https://halifaxbsides.ca/assets/favicons/favicon.png' },
          'twitter:card': { name: 'twitter:card', content: 'summary_large_image' },
          'twitter:title': { name: 'twitter:title', content: 'Halifax BSides' },
          'twitter:description': { name: 'twitter:description', content: 'BSides is a community-driven framework for building events for and by information security community members.' },
+         'twitter:image': { name: 'twitter:image', content: 'https://halifaxbsides.ca/assets/favicons/favicon.png' },
          'viewport': "width=device-width, initial-scale=1, shrink-to-fit=no",
       }
    }),
