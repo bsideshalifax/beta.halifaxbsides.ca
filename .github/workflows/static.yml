@@ -70,8 +70,11 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: 'public'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-         artifact_name: public
