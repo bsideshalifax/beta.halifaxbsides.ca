@@ -519,11 +519,12 @@ section.partners {
 
       li {
          list-style: none;
+         display: inline-block;
+         margin: 0px 20px;
       }
 
       a {
          display: inline-block;
-         background-color: #CCC;
       }
    }
 
