@@ -24,14 +24,35 @@
          <p class="lead">
             November 14th, Dalhousie University Faculty of Computer Science
          </p>
-      </section>
-      <section class="cfp container">
-         <h3>Call For Papers</h3>
-         <p class="lead">
-            It's 2024, an Olympic year, which makes it the perfect time to talk about Operation Olympic Games! If you didn't know, that was the secret code name of Stuxnet, a worm that burrowed its way into the airgapped computers of Iran's underground nuclear enrichment facilities, subtly altered the speeds at which their centrifuges were running, and made them shred themselves to bits (i.e. aluminum chunks, not 1s and 0s). But even if what you've done this year isn't quite that advanced (if it was, you'd probably have to kill us after telling us, right?), we still want to hear about it! We are Halifax BSides, and we are now accepting submissions for talks.
-         </p>
-         <h5><a href="https://forms.gle/hdTTfPBpcEBuMX5M8" target="_blank">Ready to submit your talk?</a></h5>
-      </div>
+   </section>
+
+   <section class="tickets container">
+      <h3>Tickets</h3>
+      <div id="eventbrite-widget-container-999773468357"></div>
+
+      <script src="https://www.eventbrite.ca/static/widgets/eb_widgets.js"></script>
+
+      <script type="text/javascript">
+         var exampleCallback = function () {
+            console.log('Order complete!');
+         };
+
+         window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '999773468357',
+            iframeContainerId: 'eventbrite-widget-container-999773468357',
+
+            // Optional
+            iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+            onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+         });
+      </script>
+   </section>
+
+   <section class="schedule container">
+      <h3>Schedule</h3>
+      <p>Comming Soon!</p>
    </section>
 
    <!-- team -->
@@ -44,7 +65,11 @@
                <img class="card-img-top" src="assets/images/people/brad.jpg">
                <div class="card-body">
                   <h5 class="card-title">Brad <span>Call</span></h5>
-                  <span class="card-text">Brad is a seasoned Security Professional with over 15 years of experience working in the information security industry. He has been an active member of various IT & security communities over the decades and loves talking shop with his peers. When not working (is there such a thing as that in security?), Brad enjoys spending time with his family and kicking A$$ as a Black Belt Brazilian Jiu-Jitsu practitioner and instructor.</span>
+                  <span class="card-text">Brad is a seasoned Security Professional with over 15 years of experience
+                     working in the information security industry. He has been an active member of various IT & security
+                     communities over the decades and loves talking shop with his peers. When not working (is there such
+                     a thing as that in security?), Brad enjoys spending time with his family and kicking A$$ as a Black
+                     Belt Brazilian Jiu-Jitsu practitioner and instructor.</span>
                </div>
             </div>
          </div>
@@ -99,7 +124,9 @@
                <img class="card-img-top" src="assets/images/people/meg.jpg">
                <div class="card-body">
                   <h5 class="card-title">Meaghan <span>Shubaly</span></h5>
-                  <span class="card-text">Meaghan has been working in Halifax for many years at various software companies but got into the security space a few years ago and has since become an avid security champion!</span>
+                  <span class="card-text">Meaghan has been working in Halifax for many years at various software
+                     companies but got into the security space a few years ago and has since become an avid security
+                     champion!</span>
                </div>
             </div>
          </div>
@@ -149,6 +176,22 @@
             <li>
                <a href="https://nostarch.com/"><img src="assets/images/partners/nostarch.png"></a>
             </li>
+            <li>
+               <a href="https://resmed.com/"><img src="assets/images/partners/resmed.jpeg"></a>
+            </li>
+            <li>
+               <a href="https://www.blackhillsinfosec.com/"><img src="assets/images/partners/BHIS.png"></a>
+            </li>
+            <li>
+               <a href="https://tcm-sec.com/"><img src="assets/images/partners/tcm.png"></a>
+            </li>
+            <li>
+               <a href="https://www.byos.io/"><img src="assets/images/partners/byos.png"></a>
+            </li>
+            <li>
+               <a href="https://www.zscaler.com/"><img src="assets/images/partners/zscaler.png"></a>
+            </li>
+         </ul>
          </ul>
       </div>
    </div>
